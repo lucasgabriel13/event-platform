@@ -3,6 +3,7 @@ import { Logo } from "../components/Logo";
 import { ToastContainer, toast } from 'react-toastify';
 import { useNavigate } from "react-router-dom";
 import { useCreateSubscriberMutation } from "../graphql/generated";
+import mockupImage from '../assets/code-mockup.png';
 
 import 'react-toastify/dist/ReactToastify.css';
 import { Footer } from "../components/Footer";
@@ -86,7 +87,7 @@ export default function Subscribe() {
             </form>
           </div>
         </div>
-        <img src="./src/assets/code-mockup.png" className="mt-10 p-2 md:p-0" alt="Mockup" />
+        <img src={mockupImage} className="mt-10 p-2 md:p-0" alt="Mockup" />
       </div>
       <Footer />
     </>
