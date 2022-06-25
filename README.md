@@ -10,7 +10,7 @@ on-line, onde cada aula é disponibilizada em um dia específico da semana.
 Todas as aulas disponibilizadas no evento são cadastradas no [GraphCMS](https://graphcms.com/), uma ferramenta CMS que oferece uma API GraphQL de conteúdos, sendo utilizada
 tanto na criação das aulas, cadastradas no próprio painel da ferramenta, quanto a gravação de inscritos (através das Mutations do GraphQL)no banco de dados da ferramenta.
 
-🖱️ - [Clique aqui e veja a aplicação!]()
+🖱️ - [Clique aqui e veja a aplicação!](https://event-platform-brown.vercel.app/)
 
 ## ✨ Tecnologias
 
