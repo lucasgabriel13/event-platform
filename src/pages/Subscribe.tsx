@@ -86,7 +86,7 @@ export default function Subscribe() {
             </form>
           </div>
         </div>
-        <img src="/src/assets/code-mockup.png" className="mt-10 p-2 md:p-0" alt="Mockup" />
+        <img src="./src/assets/code-mockup.png" className="mt-10 p-2 md:p-0" alt="Mockup" />
       </div>
       <Footer />
     </>
